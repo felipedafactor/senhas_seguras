@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gerador de Senhas Seguras</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+<h1>🔒 Gerador de Senhas</h1>
+
+<input type="text" id="senha" readonly>
+
+<div class="botoes">
+<button onclick="gerarSenha()">Gerar Senha</button>
+<button onclick="copiarSenha()">Copiar</button>
+</div>
+
+<h3>Força da senha</h3>
+
+<div class="barra">
+<div id="nivel"></div>
+</div>
+
+<p id="textoForca"></p>
+
+<div class="dicas">
+
+<h2>Dicas de Segurança</h2>
+
+<ul>
+<li>Use pelo menos 12 caracteres.</li>
+<li>Utilize letras maiúsculas e minúsculas.</li>
+<li>Inclua números.</li>
+<li>Use símbolos especiais.</li>
+<li>Nunca reutilize senhas.</li>
+<li>Ative autenticação em dois fatores.</li>
+
+</ul>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
